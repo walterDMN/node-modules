@@ -7,7 +7,7 @@ function solveRect(l, w) {
         if (err) {
             console.log('ERROR:', err.message);
         } else {
-            console.log(`Area of rectangle with dimensions ${l}, ${w} is: ${retangle.area()}`);
+            console.log(`Area of rectangle with dimensions ${l}, ${w} is: ${rectangle.area()}`);
             console.log(`Perimeter of rectangle with dimensions ${l}, ${w} is: ${rectangle.perimeter()}`);
         }
     });
